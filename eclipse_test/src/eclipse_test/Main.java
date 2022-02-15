@@ -7,7 +7,7 @@ public class Main {
 		
 		//some logic will be inmplemented in here
 		int i = 0; 
-		System.out.println();
+		System.out.println(i);
 	}
 
 }
