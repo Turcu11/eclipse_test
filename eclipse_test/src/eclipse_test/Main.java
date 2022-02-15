@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) 
 	{
 		//some logic will be implemented in here
-		int i = 6;
+		int i = 5;
 		System.out.println("Hi there");
 		System.out.println(factorial(i));
 	}
