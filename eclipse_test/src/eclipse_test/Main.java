@@ -6,17 +6,19 @@ public class Main {
 
 	public static void main(String[] args) 
 	{
-		//System.out.println(factorial(5));
+		//System.out.println(Factorial(5));
 		
 		//ArrayList2D();
+		
+		ForEach();
 	}
 
-	public static int factorial(int n)
+	public static int Factorial(int n)
 	{
 		if(n == 1)
 			return 1;
 		
-		return n * factorial(n-1);
+		return n * Factorial(n-1);
 	}
 	
 	public static void ArrayList2D()
@@ -37,5 +39,16 @@ public class Main {
 		listaMare.add(listaBrutarie);
 		
 		System.out.println(listaMare);
+	}
+
+	public static void ForEach()
+	{
+		String[] animale = {"caine", "gaina", "pisica","iepure"};
+		
+		for(String i : animale)
+		{
+			System.out.println(i);
+		}
+		
 	}
 }
