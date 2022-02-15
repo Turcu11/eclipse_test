@@ -8,7 +8,6 @@ public class Main {
 		//some logic will be inmplemented in here
 		int i = 0; 
 		System.out.println(i);
-		System.out.println("Hope this works.");
 	}
 
 }
